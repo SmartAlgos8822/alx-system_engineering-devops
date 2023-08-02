@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Move the file betty from /tmp/ to /tmp/my_first_directory
+mv /tmp/betty /tmp/my_first_directory/
+
+# Check if the file was moved successfully
+if [ $? -eq 0 ]; then
+    echo "File 'betty' moved successfully to /tmp/my_first_directory/"
+else
+    echo "Failed to move the file"
+fi
+
+
+
