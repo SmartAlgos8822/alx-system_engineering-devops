@@ -1,10 +1,2 @@
 #!/bin/bash
-
-# Save the current working directory in a variable
-previous_dir=$(pwd)
-
-# Change the working directory to the previous one
 cd -
-
-# Print the current working directory after the change
-echo "Changed working directory to: $(pwd)"
