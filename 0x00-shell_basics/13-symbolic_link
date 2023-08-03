@@ -1,2 +1,2 @@
-#!/bin/bash 
-ln -s /bin/ls ./__ls__ \n if [ $? -eq 0 ]; then  echo "Symbolic link '__ls__' created successfully in the current working directory"
+#!/bin/bash
+rsync -av --ignore-existing --include="*.html" --exclude="*" ./ ../
