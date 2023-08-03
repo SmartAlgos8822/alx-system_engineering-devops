@@ -1,0 +1,7 @@
+#!/bin/bash
+ln -s /bin/ls ./__ls__
+if [ $? -eq 0 ]; then
+    echo "Symbolic link '__ls__' created successfully in the current working directory"
+else
+    echo "Failed to create the symbolic link"
+fi
