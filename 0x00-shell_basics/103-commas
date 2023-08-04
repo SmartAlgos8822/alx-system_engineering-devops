@@ -1,2 +1,2 @@
 #!/bin/bash
-(printf "%s\n" . ..; printf "%s\n" * | LC_COLLATE=C grep -v "^\.\.$" | sort -d) | paste -sd ',' -; echo
+ls -A1p | LC_COLLATE=C sort -d | tr '\n' ',' && echo
