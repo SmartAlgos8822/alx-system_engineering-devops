@@ -1,0 +1,34 @@
+#!/bin/bash
+function print_crawl {
+    clear
+    echo "A long time ago in a galaxy far, far away...."
+    sleep 2
+    clear
+    echo "STAR WARS"
+    sleep 2
+    clear
+    echo "Episode IV - A NEW HOPE"
+    sleep 2
+    clear
+    echo "It is a period of civil war."
+    sleep 2
+    echo "Rebel spaceships, striking from a hidden base,"
+    sleep 2
+    echo "have won their first victory against the evil Galactic Empire."
+    sleep 2
+    echo "During the battle, Rebel spies managed to steal secret plans"
+    sleep 2
+    echo "to the Empire's ultimate weapon, the DEATH STAR,"
+    sleep 2
+    echo "an armored space station with enough power to destroy an entire planet."
+    sleep 2
+    echo "Pursued by the Empire's sinister agents,"
+    sleep 2
+    echo "Princess Leia races home aboard her starship,"
+    sleep 2
+    echo "custodian of the stolen plans that can save her people"
+    sleep 2
+    echo "and restore freedom to the galaxy...."
+    sleep 5
+}
+print_crawl
