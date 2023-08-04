@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -A1p | LC_COLLATE=C sort -d | tr '\n' ',' && echo
+ls -a | LC_ALL=C sort -d --output=, | sed 's/[^,]*$/\//'
