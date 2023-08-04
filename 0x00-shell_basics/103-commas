@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a | LC_ALL=C sort -d --output=, | sed 's/[^,]*$/\//'
+ls -apvm
